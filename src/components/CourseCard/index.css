@@ -1,0 +1,29 @@
+.list-item-details {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 120px;
+  width: 18vw;
+  margin: 5px;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.course-image {
+  height: 55px;
+  width: 55px;
+}
+.course-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
